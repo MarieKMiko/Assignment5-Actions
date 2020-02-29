@@ -19,7 +19,7 @@ class TestCase(unittest.TestCase):
 
     def test4(self):
         list=[24,38,19]
-        last = listLast(list)
+        last = task.listLast(list)
         self.assertEqual(19, last)
 
 
