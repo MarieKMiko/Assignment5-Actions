@@ -17,6 +17,11 @@ class TestCase(unittest.TestCase):
         area = task.circleArea(radius)
         self.assertEqual(18.84, area)
 
+    def test4(self):
+        list=[24,38,19]
+        last = listLast(list)
+        self.assertEqual(19, last)
+
 
 if __name__ == ' __main__':
     unittest.main()
