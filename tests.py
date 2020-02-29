@@ -18,7 +18,7 @@ class TestCase(unittest.TestCase):
         self.assertEqual(18.84, area)
 
     def test4(self):
-        list=[24,38,19]
+        list = [24, 38, 19]
         last = task.listLast(list)
         self.assertEqual(19, last)
 
