@@ -16,7 +16,7 @@ def listLast(list):
     return list[last]
 
 
-def dateDiff(date1, date2):
+def dateDiff(date.date1, date.date2):
     yearDiff = date1.year() - date2.year()
     monthDiff = date1.month() - date2.month()
     dayDiff = date1.day() - date2.day()
