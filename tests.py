@@ -2,6 +2,7 @@ import unittest
 import task
 from datetime import date
 
+
 class TestCase(unittest.TestCase):
 
     def test1(self):
