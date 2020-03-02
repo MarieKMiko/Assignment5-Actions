@@ -19,6 +19,3 @@ def listLast(list):
 def dateDiff(date1, date2):
     dateSub=date1 - date2
     return dateSub
-
-
-def dateComp(date1, date2):
