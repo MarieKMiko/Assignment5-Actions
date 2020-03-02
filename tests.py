@@ -24,10 +24,10 @@ class TestCase(unittest.TestCase):
         self.assertEqual(19, last)
 
     def test5(self):
-        date1 = 3/13/20
-        date2 = 4/13/20
+        date1 = date(2020, 5, 13)
+        date2 = date(2020, 4, 13)
         difference = task.dateDiff(date1, date2)
-        self.assertEqual(31, difference)
+        self.assertEqual(30, difference)
 
 
 if __name__ == ' __main__':
