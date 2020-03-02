@@ -17,5 +17,8 @@ def listLast(list):
 
 
 def dateDiff(date1, date2):
-    dateSub = date1 - date2
+    yearDiff = date1.year() - date2.year()
+    monthDiff = date1.month() - date2.month()
+    dayDiff = date1.day() - date2.day()
+    dateSum = (yearDiff * 365) + (monthDiff * 30) + dayDiff
     return dateSub
