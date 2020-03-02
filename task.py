@@ -1,3 +1,6 @@
+from datetime import date
+
+
 def firstrun():
     return "success"
 
@@ -11,3 +14,11 @@ def listLast(list):
     size = len(list)
     last = size-1
     return list[last]
+
+
+def dateDiff(date1, date2):
+    dateSub=date1 - date2
+    return dateSub
+
+
+def dateComp(date1, date2):
